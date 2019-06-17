@@ -27,7 +27,8 @@
     "page.your-details",
     "page.is-the-vehicle-owned-and-registered-by-a-company",
     "page.outside-the-given-time-or-need-more-time",
-    "page.reason-for-filing-outside-the-given-time"
+    "page.reason-for-filing-outside-the-given-time",
+    "page.reason-you-need-more-time"
   ],
   "url": "/"
 }
