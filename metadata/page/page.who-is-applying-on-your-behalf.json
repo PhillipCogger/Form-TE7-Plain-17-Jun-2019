@@ -30,5 +30,10 @@
       "name": "auto_name__1"
     }
   ],
+  "show": {
+    "identifier": "who-is-making-this-application",
+    "operator": "is",
+    "value": "application-made-on-behalf-of-respondent"
+  },
   "url": "who-is-applying-on-your-behalf"
 }

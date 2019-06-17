@@ -30,7 +30,8 @@
     "page.reason-for-filing-outside-the-given-time",
     "page.reason-you-need-more-time",
     "page.who-is-making-this-application",
-    "page.who-is-applying-on-your-behalf"
+    "page.who-is-applying-on-your-behalf",
+    "page.respondent-confirmation"
   ],
   "url": "/"
 }

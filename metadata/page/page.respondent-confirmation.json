@@ -1,0 +1,46 @@
+{
+  "_id": "page.respondent-confirmation",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.respondent-confirmation--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.respondent-confirmation--radios.auto_name__2--radio.auto_value__1",
+          "_type": "radio",
+          "label": "I confirm that the information supplied in this application is truthful and accurate to the best of my knowledge.",
+          "value": "information-supplied-is-true-and-accurate"
+        }
+      ],
+      "name": "auto_name__2"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.respondent-confirmation--text.auto_name__3",
+      "_type": "text",
+      "label": "**Your full name**",
+      "name": "confirmation-respondent-full-name"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.respondent-confirmation--date.auto_name__4",
+      "_type": "date",
+      "label": "**Your date of birth**",
+      "name": "confirmation-respondent-date-of-birth"
+    }
+  ],
+  "heading": "Your confirmation",
+  "show": {
+    "identifier": "who-is-making-this-application",
+    "operator": "is",
+    "value": "respondent-is-making-application"
+  },
+  "url": "respondent-confirmation"
+}
