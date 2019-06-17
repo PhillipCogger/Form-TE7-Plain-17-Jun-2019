@@ -24,7 +24,8 @@
   "heading": "Ask for more time to challenge an unpaid parking penalty charge",
   "steps": [
     "page.penalty-charge-details",
-    "page.your-details"
+    "page.your-details",
+    "page.is-the-vehicle-owned-and-registered-by-a-company"
   ],
   "url": "/"
 }
