@@ -16,14 +16,15 @@
     {
       "_id": "page.your-details--text.auto_name__1--2",
       "_type": "text",
-      "label": "Building and street",
-      "name": "respondent_address_building_name",
+      "label": "Building",
+      "name": "respondent_address_building",
       "widthClassInput": "30"
     },
     {
       "_id": "page.your-details--text.auto_name__1--3",
       "_type": "text",
-      "name": "respondent_address_street_name",
+      "label": "Street",
+      "name": "respondent_address_street",
       "validation": {
         "required": false
       },

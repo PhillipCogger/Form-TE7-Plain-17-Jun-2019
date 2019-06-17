@@ -1,26 +1,8 @@
 {
   "_id": "page.respondent-confirmation",
   "_type": "page.form",
+  "body": "I confirm that the information supplied in this application is truthful and accurate to the best of my knowledge.",
   "components": [
-    {
-      "_id": "page.respondent-confirmation--radios.auto_name__2",
-      "_type": "radios",
-      "items": [
-        {
-          "_id": "page.respondent-confirmation--radios.auto_name__2--radio.auto_value__1",
-          "_type": "radio",
-          "label": "I confirm that the information supplied in this application is truthful and accurate to the best of my knowledge.",
-          "value": "respondent-information-supplied-is-true-and-accurate"
-        },
-        {
-          "_id": "page.respondent-confirmation--radios.auto_name__2--radio.auto_value__1--2",
-          "_type": "radio",
-          "label": "The respondent confirms that the information supplied in this application is truthful and accurate to the best of their knowledge.",
-          "value": "auto_value__1"
-        }
-      ],
-      "name": "auto_name__2"
-    },
     {
       "$component": true,
       "$control": true,
@@ -28,8 +10,8 @@
       "$field": true,
       "_id": "page.respondent-confirmation--text.auto_name__3",
       "_type": "text",
-      "label": "**Your full name**",
-      "name": "confirmation-full-name"
+      "label": "Full name",
+      "name": "respondent-confirmation-full-name"
     },
     {
       "$component": true,
@@ -38,11 +20,16 @@
       "$field": true,
       "_id": "page.respondent-confirmation--date.auto_name__4",
       "_type": "date",
-      "label": "**Date**",
-      "name": "confirmation-date"
+      "hint": "For example, 27 6 2019",
+      "label": "Date",
+      "name": "respondent-confirmation-date"
     }
   ],
   "heading": "Confirmation",
-  "show": true,
+  "show": {
+    "identifier": "who-is-making-this-application",
+    "operator": "is",
+    "value": "respondent-is-making-application"
+  },
   "url": "respondent-confirmation"
 }
