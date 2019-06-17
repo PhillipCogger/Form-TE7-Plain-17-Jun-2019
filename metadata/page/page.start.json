@@ -22,6 +22,8 @@
     }
   ],
   "heading": "Ask for more time to challenge an unpaid parking penalty charge",
-  "steps": [],
+  "steps": [
+    "page.penalty-charge-details"
+  ],
   "url": "/"
 }

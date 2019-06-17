@@ -1,0 +1,21 @@
+{
+  "_id": "page.penalty-charge-details",
+  "_type": "page.form",
+  "body": "Make sure you enter all these details correctly from Form TE3 Order for recovery of unpaid penalty charge (Parking).",
+  "components": [
+    {
+      "_id": "page.penalty-charge-details--number.auto_name__1",
+      "_type": "number",
+      "label": "**Penalty charge number**",
+      "name": "penalty_charge_number"
+    },
+    {
+      "_id": "page.penalty-charge-details--number.auto_name__2",
+      "_type": "number",
+      "label": "**Vehicle registration number**",
+      "name": "vehicle_registration_number"
+    }
+  ],
+  "heading": "Penalty charge details",
+  "url": "penalty-charge-details"
+}
