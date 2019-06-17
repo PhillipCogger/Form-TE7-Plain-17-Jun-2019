@@ -25,7 +25,9 @@
   "steps": [
     "page.penalty-charge-details",
     "page.your-details",
-    "page.is-the-vehicle-owned-and-registered-by-a-company"
+    "page.is-the-vehicle-owned-and-registered-by-a-company",
+    "page.outside-the-given-time-or-need-more-time",
+    "page.reason-for-filing-outside-the-given-time"
   ],
   "url": "/"
 }
