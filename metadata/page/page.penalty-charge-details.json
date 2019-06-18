@@ -7,7 +7,7 @@
       "_type": "text",
       "hint": "It’s on your Penalty Charge Notice. For example, ‘AB12345678’.",
       "label": "Penalty Charge Notice (PCN) number",
-      "name": "auto_name__2",
+      "name": "penalty_charge_notice_number",
       "widthClassInput": "10"
     },
     {
@@ -15,7 +15,7 @@
       "_type": "text",
       "hint": "For example, BD51SMR",
       "label": "Registration number (number plate)",
-      "name": "auto_name__3",
+      "name": "registration_number",
       "widthClassInput": "10"
     }
   ],
