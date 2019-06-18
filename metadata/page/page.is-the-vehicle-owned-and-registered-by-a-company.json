@@ -25,7 +25,7 @@
           "value": "vehicle_owned_and_registered_by_a_company_no"
         }
       ],
-      "legend": "Is the vehicle owned and registered by a company?",
+      "legend": "Is the vehicle owned and registered by a company or partnership?",
       "name": "is_the_vehicle_owned_and_registered_by_a_company"
     }
   ],
