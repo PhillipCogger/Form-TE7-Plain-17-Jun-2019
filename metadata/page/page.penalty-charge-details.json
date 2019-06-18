@@ -6,13 +6,13 @@
     {
       "_id": "page.penalty-charge-details--number.auto_name__1",
       "_type": "number",
-      "label": "**Penalty charge number**",
+      "label": "Penalty charge number",
       "name": "penalty_charge_number"
     },
     {
       "_id": "page.penalty-charge-details--number.auto_name__2",
       "_type": "number",
-      "label": "**Vehicle registration number**",
+      "label": "Vehicle registration number",
       "name": "vehicle_registration_number"
     }
   ],
