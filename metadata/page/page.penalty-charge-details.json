@@ -12,6 +12,7 @@
     {
       "_id": "page.penalty-charge-details--number.auto_name__2",
       "_type": "number",
+      "hint": "For example, BD51 SMR",
       "label": "Vehicle registration number",
       "name": "vehicle_registration_number"
     }
