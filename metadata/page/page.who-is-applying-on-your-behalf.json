@@ -14,6 +14,11 @@
           "_id": "page.who-is-applying-on-your-behalf--radios.auto_name__1--radio.auto_value__1",
           "_type": "radio",
           "label": "an employee of the company or partnership",
+          "show": {
+            "identifier": "is_the_vehicle_owned_and_registered_by_a_company",
+            "operator": "is",
+            "value": "vehicle_owned_and_registered_by_a_company_yes"
+          },
           "value": "officer-of-the-company"
         },
         {
