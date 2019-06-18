@@ -6,7 +6,8 @@
     {
       "_id": "page.penalty-charge-details--number.auto_name__1",
       "_type": "number",
-      "label": "Penalty charge number",
+      "hint": "For example, AB12345678.",
+      "label": "Penalty Charge Notice (PCN) number",
       "name": "penalty_charge_number"
     },
     {
