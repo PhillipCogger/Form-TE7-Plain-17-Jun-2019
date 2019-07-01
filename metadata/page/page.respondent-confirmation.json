@@ -11,7 +11,7 @@
       "$field": true,
       "_id": "page.respondent-confirmation--text.auto_name__3",
       "_type": "text",
-      "label": "Full name",
+      "label": "Your full name",
       "name": "respondent-confirmation-full-name"
     },
     {
